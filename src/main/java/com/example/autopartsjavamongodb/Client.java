@@ -1,7 +1,7 @@
 package com.example.autopartsjavamongodb;
 
 public class  Client {
-    private final static String Serverid = "mongodb+srv://gjonathan:123@cluster0.nceor.mongodb.net/InventoryDB?retryWrites=true&w=majority";
+    private final static String Serverid = "";
     private final static String DatabaseName = "InventoryDB";
     public Client()
     {

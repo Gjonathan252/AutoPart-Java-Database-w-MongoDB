@@ -10,6 +10,7 @@ import static com.mongodb.client.model.Filters.*;
 
 public class main {
     public static void main(String[] args){
+        System.out.println("hello world");
         Client server = new Client();
         MongoClient client = MongoClients.create(server.getServerid());
         MongoDatabase db = client.getDatabase(server.getDatabaseName());
